@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}
+
+.drumkit {
+  border: 10px solid black;
+  background-color: rgb(50, 89, 170);
+  padding: 5%;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.name {
+  font-size: 60px;
+}
+
+.drum-keys {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+kbd {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.key {
+  border: 4px solid black;
+  padding: 20%;
+  margin: 10%;
+  background-color: rgb(124, 132, 189);
+}

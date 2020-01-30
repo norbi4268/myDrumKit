@@ -39,3 +39,9 @@ kbd {
   margin: 10%;
   background-color: rgb(124, 132, 189);
 }
+
+.playing {
+  transform: scale(0.9);
+  border-color: rgb(228, 154, 29);
+  color: rgb(228, 154, 29);
+}
